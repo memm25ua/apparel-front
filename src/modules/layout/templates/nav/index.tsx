@@ -10,6 +10,7 @@ import clsx from "clsx"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useEffect, useState } from "react"
+import Shuriken from "@modules/common/icons/shuriken"
 
 const Nav = () => {
   const pathname = usePathname()
@@ -73,8 +74,8 @@ const Nav = () => {
           </div>
 
           <div className="flex items-center h-full">
-            <Link href="/" className="text-xl-semi uppercase">
-              Acme
+            <Link href="/" className="flex items-center text-xl-semi uppercase font-brand">
+              Apparel<Shuriken /> lab
             </Link>
           </div>
 

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 @layer utilities {
   /* Chrome, Safari and Opera */
@@ -110,3 +114,4 @@
     @apply text-[36px] leading-[48px] font-semibold;
   }
 }
+

@@ -33,6 +33,7 @@ module.exports = {
           "Ubuntu",
           "sans-serif",
         ],
+        'brand': ['Hurricane', 'sans-serif']
       },
     },
   },
